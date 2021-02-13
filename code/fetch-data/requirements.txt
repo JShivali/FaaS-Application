@@ -1,0 +1,7 @@
+# Function dependencies, for example:
+# package>=version
+requests==2.22.0
+google-cloud-storage==1.32.0
+matplotlib==3.2.0rc1
+google-cloud-error-reporting==0.30.0
+redis
