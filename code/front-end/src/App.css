@@ -1,0 +1,75 @@
+.App {
+  display: grid;
+  justify-content: "center";
+  align-items: center;
+
+  justify-self: center;
+  transform: "translate(-50%, -50%)";
+  position: "absolute";
+  left: "50%";
+  top: "50%";
+
+  place-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: block;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#formcontrol {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#btndiv {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#urltextbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#outputdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#beatloader {
+  display: flex;
+  align-items: center;
+  justify-self: "center";
+  padding-top: 5%;
+  padding-left: 50%;
+}
+
+#header {
+  display: inline-block;
+  align-items: center;
+  justify-self: "center";
+  align-content: "center";
+  height: 100px;
+}
+
+#page {
+  display: inline-block;
+  align-items: center;
+  justify-self: "center";
+  align-content: center;
+  padding-top: 5%;
+  text-emphasis: 10;
+}
