@@ -2,15 +2,15 @@
 
 
 # Design Details:
-## User interface:
+** User interface: **
 I used react.js for the front-end of the project. The web page takes the url
 of the book. The user can paste the url in the textbox or select a book from the drop
 down.
-## Cache: 
+** Cache: **
 I have used the cloud Memorystore API (Redis) which is a low latency
 in-memory service provided by Google. I used this for caching requests. The request url
 is used as the key and value will be the url path to the graph stored in the bucket.
-## Backend:
+** Backend: **
 The project has two cloud functions called fetch-data and plot-data. I have
 used python 3.8 for implementing these functions. Both the functions are HTTP
 triggered. The fetch-data function is used to get the data from the specified url and
