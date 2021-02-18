@@ -1,5 +1,5 @@
 # FaaS-Application
-
+A simple web-service using Functions as a Service.This web service takes as input the name or URL of an e-book, and output the distribution of the lengths of the sentences in that book.
 
 # Design Details:
 1. User interface:
